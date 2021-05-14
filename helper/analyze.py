@@ -102,7 +102,7 @@ def plot_kmeans(fname, means, labels, values, xlabs, scaling):
         plt.ylabel("RPKM")
     plt.ylim((miny - d, maxy + d))
     plt.xticks(range(len(x)), xlabs, rotation=90)
-    plt.legend()
+    plt.legend(labelspacing=0.2, fontsize=8)
     plt.tight_layout()
     plt.savefig(fname, dpi=600)
     plt.clf()

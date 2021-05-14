@@ -1,3 +1,9 @@
+__author__ = "Shane Drabing"
+__license__ = "MIT"
+__version__ = "0.0.1"
+__email__ = "shane.drabing@gmail.com"
+
+
 from helper.analyze import analyze
 from helper.clean import clean
 from helper.retrieve import retrieve
@@ -19,6 +25,6 @@ if __name__ == "__main__":
     name_kcsv = "data/kmeans.csv"
     name_kpng = "data/kmeans.png"
 
-    retrieve(name_input, name_raw, include=iscancer)
+    retrieve(name_input, name_raw, include=iszfp)
     clean(name_raw, name_clean)
-    analyze(name_clean, name_kcsv, name_kpng, k=2)
+    analyze(name_clean, name_kcsv, name_kpng, k=6, scaling="zscore")
