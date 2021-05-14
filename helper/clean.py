@@ -53,13 +53,3 @@ def clean(inp_fname, out_fname):
             pipe(prune),
             lambda x: writecsv(x, out_fname, fields(x))
         )(f)
-
-
-# TEST SCRIPT
-
-
-if __name__ == "__main__":
-    name_raw = "data/data.csv"
-    name_clean = "data/clean.csv"
-
-    clean(name_raw, name_clean)

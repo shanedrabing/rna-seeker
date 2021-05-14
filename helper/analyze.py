@@ -149,14 +149,3 @@ def analyze(inp_fname, out_fname, plt_fname=None, k=3, thresh_init=1e-2, thresh_
         for (id_, name), group in sorted(zip(keys, labels), key=nest(reversed, tuple)):
             f.write(
                 f"{id_},{name},{group},{op(temp[group])},{TEMPLATE_NCBI_GENE.format(id_)}\n")
-
-
-# SCRIPT
-
-
-if __name__ == "__main__":
-    name_clean = "data/clean.csv"
-    name_kcsv = "data/kmeans.csv"
-    name_kpng = "data/kmeans.png"
-
-    analyze(name_clean, name_kcsv, name_kpng, k=3)

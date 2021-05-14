@@ -1,26 +1,26 @@
 ID,NAME,GROUP,ASSIGNMENT,URL
-12927,Bcar1,0,'adrenal adult|bladder adult|cerebellum adult|cns e11.5|cns e14|cns e18|colon adult|cortex adult|duodenum adult|frontal lobe adult|genital fat pad adult|heart adult|kidney adult|large intestine adult|limb e14.5|liver adult|liver e14|liver e14.5|liver e18|lung adult|mammary gland adult|ovary adult|placenta adult|small intestine adult|spleen adult|stomach adult|subcutaneous fat pad adult|testis adult|thymus adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/12927
-53619,Blcap,0,'adrenal adult|bladder adult|cerebellum adult|cns e11.5|cns e14|cns e18|colon adult|cortex adult|duodenum adult|frontal lobe adult|genital fat pad adult|heart adult|kidney adult|large intestine adult|limb e14.5|liver adult|liver e14|liver e14.5|liver e18|lung adult|mammary gland adult|ovary adult|placenta adult|small intestine adult|spleen adult|stomach adult|subcutaneous fat pad adult|testis adult|thymus adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/53619
-107392,Brms1,0,'adrenal adult|bladder adult|cerebellum adult|cns e11.5|cns e14|cns e18|colon adult|cortex adult|duodenum adult|frontal lobe adult|genital fat pad adult|heart adult|kidney adult|large intestine adult|limb e14.5|liver adult|liver e14|liver e14.5|liver e18|lung adult|mammary gland adult|ovary adult|placenta adult|small intestine adult|spleen adult|stomach adult|subcutaneous fat pad adult|testis adult|thymus adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/107392
-192160,Casc3,0,'adrenal adult|bladder adult|cerebellum adult|cns e11.5|cns e14|cns e18|colon adult|cortex adult|duodenum adult|frontal lobe adult|genital fat pad adult|heart adult|kidney adult|large intestine adult|limb e14.5|liver adult|liver e14|liver e14.5|liver e18|lung adult|mammary gland adult|ovary adult|placenta adult|small intestine adult|spleen adult|stomach adult|subcutaneous fat pad adult|testis adult|thymus adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/192160
-12189,Brca1,1,'',https://www.ncbi.nlm.nih.gov/gene/12189
-12190,Brca2,1,'',https://www.ncbi.nlm.nih.gov/gene/12190
-15248,Hic1,1,'',https://www.ncbi.nlm.nih.gov/gene/15248
-29815,Bcar3,1,'',https://www.ncbi.nlm.nih.gov/gene/29815
-50768,Dlc1,1,'',https://www.ncbi.nlm.nih.gov/gene/50768
-52592,Brms1l,1,'',https://www.ncbi.nlm.nih.gov/gene/52592
-58180,Hic2,1,'',https://www.ncbi.nlm.nih.gov/gene/58180
-66566,Ntpcr,1,'',https://www.ncbi.nlm.nih.gov/gene/66566
-70062,Ctag2,1,'',https://www.ncbi.nlm.nih.gov/gene/70062
-71213,Cage1,1,'',https://www.ncbi.nlm.nih.gov/gene/71213
-75013,Ct55,1,'',https://www.ncbi.nlm.nih.gov/gene/75013
-76816,Sdccag8,1,'',https://www.ncbi.nlm.nih.gov/gene/76816
-232023,Vopp1,1,'',https://www.ncbi.nlm.nih.gov/gene/232023
-238455,Macc1,1,'',https://www.ncbi.nlm.nih.gov/gene/238455
-246257,Ovca2,1,'',https://www.ncbi.nlm.nih.gov/gene/246257
-268527,Greb1,1,'',https://www.ncbi.nlm.nih.gov/gene/268527
-320256,Dlec1,1,'',https://www.ncbi.nlm.nih.gov/gene/320256
-320271,Scai,1,'',https://www.ncbi.nlm.nih.gov/gene/320271
-320662,Casc1,1,'',https://www.ncbi.nlm.nih.gov/gene/320662
-328949,Mcc,1,'',https://www.ncbi.nlm.nih.gov/gene/328949
-381157,Greb1l,1,'',https://www.ncbi.nlm.nih.gov/gene/381157
+12189,Brca1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/12189
+12190,Brca2,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/12190
+12927,Bcar1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/12927
+15248,Hic1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/15248
+29815,Bcar3,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/29815
+50768,Dlc1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/50768
+52592,Brms1l,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/52592
+53619,Blcap,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/53619
+58180,Hic2,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/58180
+66566,Ntpcr,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/66566
+71213,Cage1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/71213
+75013,Ct55,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/75013
+76816,Sdccag8,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/76816
+192160,Casc3,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/192160
+232023,Vopp1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/232023
+238455,Macc1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/238455
+246257,Ovca2,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/246257
+268527,Greb1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/268527
+320256,Dlec1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/320256
+320271,Scai,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/320271
+320662,Casc1,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/320662
+328949,Mcc,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/328949
+381157,Greb1l,0,'adrenal adult|bladder adult|cerebellum adult|cns e14|cns e18|cortex adult|frontal lobe adult|genital fat pad adult|heart adult|limb e14.5|mammary gland adult|ovary adult|subcutaneous fat pad adult|whole brain e14.5',https://www.ncbi.nlm.nih.gov/gene/381157
+70062,Ctag2,1,'cns e11.5|colon adult|duodenum adult|kidney adult|large intestine adult|liver adult|liver e14|liver e14.5|liver e18|lung adult|placenta adult|small intestine adult|spleen adult|stomach adult|testis adult|thymus adult',https://www.ncbi.nlm.nih.gov/gene/70062
+107392,Brms1,1,'cns e11.5|colon adult|duodenum adult|kidney adult|large intestine adult|liver adult|liver e14|liver e14.5|liver e18|lung adult|placenta adult|small intestine adult|spleen adult|stomach adult|testis adult|thymus adult',https://www.ncbi.nlm.nih.gov/gene/107392
