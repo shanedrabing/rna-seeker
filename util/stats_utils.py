@@ -1,5 +1,5 @@
 from operator import pow, sub, truediv, mul
-from func_utils import nest, part, pipe, reduce
+from util.func_utils import nest, part, pipe, reduce
 
 
 # FUNCTIONS

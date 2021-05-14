@@ -2,14 +2,15 @@ import collections
 import csv
 import random
 from operator import add, inv, mod, neg, sub
-from retrieve import TEMPLATE_NCBI_GENE
+from helper.retrieve import TEMPLATE_NCBI_GENE
 
 from matplotlib import pyplot as plt
 
-from clean import safenum, VALID_KEYS
-from func_utils import (apply, filt, get, getitems, identity, nest, part, pipe,
+from helper.clean import safenum, VALID_KEYS
+from util.func_utils import (apply, filt, get, getitems, identity, nest, part, pipe,
                         transpose)
-from stats_utils import geometric_mean, harmonic_mean, mean, median, minmax, relerr, zscore
+from util.stats_utils import geometric_mean, harmonic_mean, mean, median, minmax, relerr, zscore
+
 
 # CONSTANTS
 

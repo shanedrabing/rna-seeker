@@ -4,7 +4,7 @@ import re
 
 import requests
 
-from func_utils import (apply, chunker, display, filt, get, log, nest, part,
+from util.func_utils import (apply, chunker, display, filt, get, log, nest, part,
                         pipe, reduce, ripper)
 
 
