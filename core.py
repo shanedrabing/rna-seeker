@@ -22,13 +22,13 @@ if __name__ == "__main__":
         return "cancer" in x["description"]
 
     # filenames
-    name_input = "data/mus_musculus_exp.txt"
-    name_raw = "data/raw.csv"
-    name_clean = "data/clean.csv"
-    name_kcsv = "data/kmeans.csv"
-    name_kpng = "data/kmeans.png"
+    input = "data/mus_musculus_exp.txt"
+    raw = "data/raw.csv"
+    cleaned = "data/clean.csv"
+    kcsv = "data/kmeans.csv"
+    kpng = "data/kmeans.png"
 
     # workflow
-    retrieve(name_input, name_raw, include=iszfp)
-    clean(name_raw, name_clean)
-    analyze(name_clean, name_kcsv, name_kpng, k=6, scaling="zscore")
+    retrieve(input, raw, include=iszfp)
+    clean(raw, cleaned)
+    analyze(cleaned, kcsv, kpng, k=6, scaling="zscore")
