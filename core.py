@@ -25,10 +25,13 @@ if __name__ == "__main__":
     input = "data/mus_musculus_exp.txt"
     raw = "data/raw.csv"
     cleaned = "data/clean.csv"
-    kcsv = "data/kmeans.csv"
-    kpng = "data/kmeans.png"
+    k3csv = "data/k3_rpkm.csv"
+    k3jpg = "data/k3_rpkm.jpg"
+    k6csv = "data/k6_zscore.csv"
+    k6jpg = "data/k6_zscore.jpg"
 
     # workflow
-    retrieve(input, raw, include=iszfp)
+    # retrieve(input, raw, include=iszfp)
     clean(raw, cleaned)
-    analyze(cleaned, kcsv, kpng, k=6, scaling="zscore")
+    analyze(cleaned, k3csv, k3jpg, k=3)
+    analyze(cleaned, k6csv, k6jpg, k=6, scaling="zscore")
