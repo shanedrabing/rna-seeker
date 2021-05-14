@@ -10,7 +10,8 @@ then run scripts within the cloned folder.
 
 ```bash
 git clone https://github.com/shanedrabing/rna_seeker.git
-cd rna_seeker && python setup.py install
+cd rna_seeker
+python setup.py install
 ```
 
 ## Getting Started
