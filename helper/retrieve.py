@@ -51,7 +51,8 @@ def writecsv(data, fname, fields=None):
 
     if fields is None:
         fields = sorted(data[0].keys())
-    filepath = os.path.relpath(fname)
+
+    filepath = os.path.realpath(fname)
     folder = os.path.dirname(filepath)
     if not os.path.exists(folder):
         os.makedirs(folder)
