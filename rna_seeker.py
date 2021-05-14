@@ -13,11 +13,11 @@ if __name__ == "__main__":
     def iscancer(x):
         return "cancer" in x["description"]
 
-    name_input = "input/mus_musculus_exp.txt"
-    name_raw = "output/data.csv"
-    name_clean = "output/clean.csv"
-    name_kcsv = "output/kmeans.csv"
-    name_kpng = "output/kmeans.png"
+    name_input = "data/mus_musculus_exp.txt"
+    name_raw = "data/data.csv"
+    name_clean = "data/clean.csv"
+    name_kcsv = "data/kmeans.csv"
+    name_kpng = "data/kmeans.png"
 
     retrieve(name_input, name_raw, include=iscancer)
     clean(name_raw, name_clean)

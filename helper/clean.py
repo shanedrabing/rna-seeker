@@ -57,7 +57,7 @@ def clean(inp_fname, out_fname):
 
 
 if __name__ == "__main__":
-    name_raw = "output/data.csv"
-    name_clean = "output/clean.csv"
+    name_raw = "data/data.csv"
+    name_clean = "data/clean.csv"
 
     clean(name_raw, name_clean)

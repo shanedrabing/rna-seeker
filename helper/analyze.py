@@ -152,8 +152,8 @@ def analyze(inp_fname, out_fname, plt_fname=None, k=3, thresh_init=1e-2, thresh_
 
 
 if __name__ == "__main__":
-    name_clean = "output/clean.csv"
-    name_kcsv = "output/kmeans.csv"
-    name_kpng = "output/kmeans.png"
+    name_clean = "data/clean.csv"
+    name_kcsv = "data/kmeans.csv"
+    name_kpng = "data/kmeans.png"
 
     analyze(name_clean, name_kcsv, name_kpng, k=3)
