@@ -1,9 +1,10 @@
 import csv
 from operator import sub
 
-from util.func_utils import apply, catch, display, get, identity, nest, part, pipe
+from util.func_utils import catch, get, identity, nest, part, pipe
+from util.stats_utils import mean
+
 from helper.retrieve import writecsv
-from util.stats_utils import geometric_mean, mean, zscore
 
 
 # CONSTANTS

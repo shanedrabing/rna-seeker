@@ -3,9 +3,8 @@ import os
 import re
 
 import requests
-
-from util.func_utils import (apply, chunker, display, filt, get, log, nest, part,
-                        pipe, reduce, ripper)
+from util.func_utils import (apply, chunker, display, filt, get, log, nest,
+                             part, pipe, reduce, ripper)
 
 
 # CONSTANTS

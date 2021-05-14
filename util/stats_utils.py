@@ -1,4 +1,5 @@
-from operator import pow, sub, truediv, mul
+from operator import mul, pow, sub, truediv
+
 from util.func_utils import nest, part, pipe, reduce
 
 
