@@ -10,6 +10,8 @@ from helper.retrieve import retrieve
 
 
 if __name__ == "__main__":
+    # example `include` functions
+
     def iszfp(x):
         return x["Symbol"].startswith("Zfp")
 
@@ -19,12 +21,14 @@ if __name__ == "__main__":
     def iscancer(x):
         return "cancer" in x["description"]
 
+    # filenames
     name_input = "data/mus_musculus_exp.txt"
     name_raw = "data/raw.csv"
     name_clean = "data/clean.csv"
     name_kcsv = "data/kmeans.csv"
     name_kpng = "data/kmeans.png"
 
-    # retrieve(name_input, name_raw, include=iszfp)
+    # workflow
+    retrieve(name_input, name_raw, include=iszfp)
     clean(name_raw, name_clean)
     analyze(name_clean, name_kcsv, name_kpng, k=6, scaling="zscore")
