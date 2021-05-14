@@ -9,7 +9,7 @@ setuptools.setup(
     author="Shane Drabing",
     author_email="shane.drabing@gmail.com",
     packages=setuptools.find_packages(),
-    url="https://github.com/shanedrabing/rna-seeker",
+    url="https://github.com/shanedrabing/rna_seeker",
     description="Exploratory RNA-Seq data collection and k-means clustering analysis.",
     long_description=long_description,
     long_description_content_type="text/markdown",
