@@ -14,11 +14,11 @@ if __name__ == "__main__":
         return "cancer" in x["description"]
 
     name_input = "data/mus_musculus_exp.txt"
-    name_raw = "data/data.csv"
+    name_raw = "data/raw.csv"
     name_clean = "data/clean.csv"
     name_kcsv = "data/kmeans.csv"
     name_kpng = "data/kmeans.png"
 
-    retrieve(name_input, "text.csv", include=lambda x: x["Symbol"].startswith("Brca"))
-    # clean(name_raw, name_clean)
-    # analyze(name_clean, name_kcsv, name_kpng, k=2)
+    retrieve(name_input, name_raw, include=iscancer)
+    clean(name_raw, name_clean)
+    analyze(name_clean, name_kcsv, name_kpng, k=2)
