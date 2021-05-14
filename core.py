@@ -25,6 +25,6 @@ if __name__ == "__main__":
     name_kcsv = "data/kmeans.csv"
     name_kpng = "data/kmeans.png"
 
-    retrieve(name_input, name_raw, include=iszfp)
+    # retrieve(name_input, name_raw, include=iszfp)
     clean(name_raw, name_clean)
     analyze(name_clean, name_kcsv, name_kpng, k=6, scaling="zscore")
