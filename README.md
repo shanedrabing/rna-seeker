@@ -5,6 +5,7 @@ Exploratory RNA-Seq data collection and k-means clustering analysis.
 ## Installation
 
 Clone this repository to your local machine, then install using Python.
+
 Alternatively, simply clone and then run your scripts within the cloned folder.
 
 ```bash
