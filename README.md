@@ -18,7 +18,7 @@ python setup.py install
 
 This program takes exported search results from NCBI Gene ([here is an example
 search](https://www.ncbi.nlm.nih.gov/gene/?term=%22adult%22%5BExpression%2FTissues%5D+AND+%22mus+musculus%22%5BOrganism%5D))
-as input, as seen in the picture below.
+as input, as seen below:
 
 ![data/ncbi_search.png](data/ncbi_search.png)
 
@@ -54,9 +54,9 @@ analyze(inp_fname="clean.csv",
         plt_fname="k3_rpkm.jpg")
 ```
 
-Notice that besides providing necessary filenames, we use an anonymous function
-as a value for the `include` parameter of the `retrieve` function. Imagine that
-`x` is a dictionary representing any given row of the
+Notice that, besides providing necessary filenames, we use an anonymous
+function as a value for the `include` parameter of the `retrieve` function.
+Imagine that `x` is a dictionary representing any given row of the
 [data/mus_musculus_exp.txt](data/mus_musculus_exp.txt) file. In this example,
 we make sure that any given row's symbol (name) starts with `"Zfp"`, for
 "Zinc-finger protein." So, our function will now only go fetch the information
@@ -69,8 +69,9 @@ By default, the `analyze` function runs k-means clustering with a `k` value of
 
 The above graph tells us more about how genes cluster together in terms of the
 *amount* of expression. The green line is high expression, orange is medium,
-and blue is low. The associated CSV file will assign genes to these clusters,
-so we can determine which genes have high expression, for instance:
+and blue is low. The [associated CSV file](data/k3_rpkm.csv) will assign genes
+to these clusters, so we can determine which genes have high expression, for
+instance:
 
 ```csv
 ID,NAME,GROUP,ASSIGNMENT,URL
@@ -87,8 +88,8 @@ value and `scaling` parameter, like so:
 ```py
 # k-means clustering, scaled by Z-score
 analyze(inp_fname="clean.csv",
-        out_fname="k3_rpkm.csv",
-        plt_fname="k3_rpkm.jpg",
+        out_fname="k6_zscore.csv",
+        plt_fname="k6_zscore.jpg",
         k=6, scaling="zscore")
 ```
 
@@ -97,10 +98,10 @@ And now we get results like this:
 ![data/k6_zscore.jpg](data/k6_zscore.jpg)
 
 The above graph tells us more about how genes cluster together in terms of the
-profile of the `tissues` they are expressed in. So, for instance, it appears
+profile of the *tissues* they are expressed in. So, for instance, it appears
 the green line has very high expression in the testis. Let's take a look at
-that cluster in the CSV file to find out what genes are expressed in the
-testis:
+that cluster in the [associated CSV file](data/k6_zscore.csv) to find out what
+genes are expressed in the testis:
 
 ```csv
 ID,NAME,GROUP,ASSIGNMENT,URL
