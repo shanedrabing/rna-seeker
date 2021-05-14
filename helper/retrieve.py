@@ -151,7 +151,7 @@ def retrieve(inp_fname, out_fname, include=bool):
     file
 
     :param inp_fname: Input filename of NCBI Gene search export
-    :param out_fname: Output filename for writing
+    :param out_fname: Output filename for writing raw data
     :param include: Function to filter out input rows
     :returns: tuple of dicts
     """
