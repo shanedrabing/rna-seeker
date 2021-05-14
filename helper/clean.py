@@ -23,7 +23,8 @@ def numerical(x):
     return x
 
 
-safenum = catch(numerical, ValueError, identity)
+def safenum(x):
+    return catch(numerical, ValueError, identity)(x)
 
 
 def prune(dct):

@@ -19,18 +19,20 @@ TEMPLATE_NCBI_GENE = "https://www.ncbi.nlm.nih.gov/gene/{}"
 # FUNCTIONS
 
 
-logcnt = display(log("Now retrieving chunk {}...", "count"))
+def logcount(x):
+    return display(log("Now retrieving chunk {}...", "count"))(x)
 
 
 def statusok(resp):
     return resp.status_code == 200
 
 
-okgets = nest(
-    ripper(requests.get),
-    filt(statusok),
-    tuple
-)
+def okgets(x):
+    return nest(
+        ripper(requests.get),
+        filt(statusok),
+        tuple
+    )(x)
 
 
 def flatten_dict(x, old_k=str()):
@@ -80,18 +82,19 @@ def procpage(resp):
     return data
 
 
-procchunk = nest(
-    okgets,
-    apply(procpage),
-    filt(bool),
-    tuple
-)
+def procchunk(x):
+    return nest(
+        okgets,
+        apply(procpage),
+        filt(bool),
+        tuple
+    )(x)
 
 
 def procfull(fname):
     return nest(
         chunker(CHUNK_SIZE),
-        apply(nest(logcnt, procchunk)),
+        apply(nest(logcount, procchunk)),
         reduce(tuple.__add__),
         part(sorted, key=get("NAME")),
         part(writecsv, fname),

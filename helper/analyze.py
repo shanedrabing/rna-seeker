@@ -24,10 +24,11 @@ PALETTE_TABLEAU = (
 # FUNCTIONS
 
 
-tab_color = nest(
-    part(mod, len(PALETTE_TABLEAU)),
-    get(PALETTE_TABLEAU, iskey=False)
-)
+def palette(x):
+    return nest(
+        part(mod, len(PALETTE_TABLEAU)),
+        get(PALETTE_TABLEAU, iskey=False)
+    )(x)
 
 
 def convert(dct):
@@ -54,11 +55,12 @@ def load(fname):
         )(f)
 
 
-error = nest(
-    apply(nest(sub, part(pow, 2))),
-    sum,
-    part(pow, 0.5)
-)
+def error(a, b):
+    return nest(
+        apply(nest(sub, part(pow, 2))),
+        sum,
+        part(pow, 0.5)
+    )(a, b)
 
 
 def kstep(means, values):
@@ -81,7 +83,7 @@ def mstep(labels, values):
 
 def plot_kmeans(fname, means, labels, values, xlabs, scaling):
     for i, x in zip(labels, values):
-        plt.plot(x, color=tab_color(i), linewidth=0.1)
+        plt.plot(x, color=palette(i), linewidth=0.1)
 
     miny = float("inf")
     maxy = -float("inf")
@@ -89,7 +91,7 @@ def plot_kmeans(fname, means, labels, values, xlabs, scaling):
         miny = min(miny, *x)
         maxy = max(maxy, *x)
         plt.plot(x, color="white", linewidth=4)
-        plt.plot(x, color=tab_color(i), linewidth=2, label=i)
+        plt.plot(x, color=palette(i), linewidth=2, label=i)
 
     d = (maxy - miny) * 0.05
 
@@ -145,7 +147,8 @@ def analyze(inp_fname, out_fname, plt_fname=None, k=3, thresh_init=1e-2, thresh_
     with open(out_fname, "w") as f:
         f.write(f"ID,NAME,GROUP,ASSIGNMENT,URL\n")
         for (id_, name), group in sorted(zip(keys, labels), key=nest(reversed, tuple)):
-            f.write(f"{id_},{name},{group},{op(temp[group])},{TEMPLATE_NCBI_GENE.format(id_)}\n")
+            f.write(
+                f"{id_},{name},{group},{op(temp[group])},{TEMPLATE_NCBI_GENE.format(id_)}\n")
 
 
 # SCRIPT
