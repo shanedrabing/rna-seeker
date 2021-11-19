@@ -9,7 +9,7 @@ Clone this repository to your local machine, then install using Python.
 Alternatively, simply clone and then run your scripts within the cloned folder.
 
 ```bash
-git clone https://github.com/shanedrabing/rna_seeker.git
+git clone https://github.com/shanedrabing/rna-seeker.git
 cd rna_seeker
 python setup.py install
 ```
